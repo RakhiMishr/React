@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(A.jpg);
+    background-size: cover;
+    
+}
+.from{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(97, 14, 14, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 150px auto;
+    margin-left: 850px;
+
+
+}
+.from h1 {
+    color: white;
+
+}
+.from input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.from button {
+    width:100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+

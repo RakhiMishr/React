@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'
+import './index.css';
+import App from './App';
+import './Navbar.css';
+import './Navbar'
+import Navbar from './Navbar';
+import './Home.css';
+import './Home';
+import Home from './Home';
+
+//import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+    root.render(
+
   <>
-    <App/>
+  <App />
+  <Navbar />
+  <Home />
   </>
-    
-  
 );
+//reportWebVitals();
 
