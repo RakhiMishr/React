@@ -1,11 +1,12 @@
 import React from "react";  
 import './Navbar.css';
+import a from './netflix.png'; // Assuming netflix.png is in the same directory
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-          <img src='A.jpg' ></img>
+          <img src={a} ></img>
           <ul className="tools">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
