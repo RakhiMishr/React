@@ -5,7 +5,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #0f0f0f;
+    background-color: #f1efef;
     
 }
 nav ul {
@@ -22,7 +22,7 @@ nav ul li {
     margin-right: 20px;
 }
 nav ul li a {
-    color: orangered;
+    color: rgb(18, 16, 107);
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -37,7 +37,7 @@ nav ul li a.active:hover {
     text-decoration: none;
 }
 nav ul li a:visited {
-    color: orangered;
+    color: rgb(84, 19, 204);
 }
 nav ul li a:visited:hover {
     color: rgb(241, 19, 19);
